@@ -11,7 +11,7 @@ const projects = [
       'Interactive session visualizations and drill tracking'
     ],
     mediaAlt: 'Defendly demo',
-    image: '/defendly.svg'
+    image: '/defendly.png'
   },
   {
     id: 'synergyplus',
@@ -25,7 +25,7 @@ const projects = [
       'Responsive UI with quick filtering'
     ],
     mediaAlt: 'SynergyPlus screenshot',
-    image: '/synergyplus.svg'
+    image: '/grade.png'
   }
   ,
   {
@@ -40,7 +40,7 @@ const projects = [
       'Implemented instruction parsing, opcode encoding, register management, and memory simulation'
     ],
     mediaAlt: 'Assembler demo',
-    image: '/assembler.svg'
+    image: '/assembly-process.png'
   }
 ]
 

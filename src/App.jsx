@@ -52,7 +52,7 @@ export default function App() {
 
         <section id="contact" className="section">
           <h2>Contact</h2>
-          <p>If you'd like to collaborate or have questions, email me at <a href="mailto:anish@example.com">anish@example.com</a>.</p>
+          <p>If you'd like to collaborate or have questions, email me at <a href="mailto:ab370594588@gmail.com">ab370594588@gmail.com</a>.</p>
           <p>
             <a href="https://github.com/Abagel-coder" target="_blank" rel="noopener noreferrer">GitHub</a> ·
             <a href="https://www.linkedin.com/in/anish-baghel-782909220/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
