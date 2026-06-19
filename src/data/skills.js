@@ -8,6 +8,7 @@ const skills = [
       { name: 'Java', note: 'AP/competition experience' },
       { name: 'C++', note: 'Competitive programming' },
       { name: 'JavaScript', note: 'Frontend scripting' },
+      { name: 'TypeScript', note: 'React Native & web apps' },
       { name: 'C', note: 'Systems programming and CPU emulator' },
       { name: 'Assembly', note: 'ISA-level instruction design' }
     ]
@@ -18,6 +19,7 @@ const skills = [
     color: '#46C9B8',
     items: [
       { name: 'TensorFlow' },
+      { name: 'TensorFlow Lite' },
       { name: 'Scikit-Learn' },
       { name: 'OpenCV' },
       { name: 'MediaPipe' },
@@ -31,10 +33,27 @@ const skills = [
     color: '#46C9B8',
     items: [
       { name: 'React' },
-      { name: 'FastAPI' },
+      { name: 'React Native' },
+      { name: 'Node.js' },
+      { name: 'Express' },
       { name: 'Django' },
       { name: 'Wagtail' },
+      { name: 'Tailwind CSS' },
       { name: 'Git' }
+    ]
+  },
+  {
+    id: 'data',
+    title: 'Data & Infra',
+    color: '#46C9B8',
+    items: [
+      { name: 'PostgreSQL' },
+      { name: 'MongoDB' },
+      { name: 'Redis' },
+      { name: 'Supabase' },
+      { name: 'Vercel' },
+      { name: 'WebAuthn / FIDO2' },
+      { name: 'Linux / Server Admin' }
     ]
   },
   {
@@ -44,8 +63,9 @@ const skills = [
     items: [
       { name: 'Computer Architecture' },
       { name: 'ISA Design' },
-      { name: 'Memory Simulation' },
-      { name: 'Server Administration' }
+      { name: 'Pipelining' },
+      { name: 'Branch Prediction' },
+      { name: 'Cache Design' }
     ]
   }
 ]

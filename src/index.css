@@ -19,7 +19,13 @@
 html,body,#root{height:100%}
 body{
   margin:0;
-  background:var(--canvas);
+  background-color:var(--canvas);
+  /* Faint blueprint grid */
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size:42px 42px;
+  background-attachment:fixed;
   color:var(--paper);
   font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   -webkit-font-smoothing:antialiased;
@@ -35,6 +41,10 @@ nav.nav-rail::before{content:'';position:absolute;left:50%;top:34px;bottom:34px;
 
 .content{flex:1;padding:48px}
 .section{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:36px;border-radius:var(--radius);margin-bottom:var(--gap)}
+
+/* Section heading identity */
+.section h2{font-family:'Space Grotesk', 'Segoe UI', Arial;font-weight:700;letter-spacing:0.5px;margin-top:0}
+.section h2::after{content:'';display:block;width:44px;height:2px;margin-top:10px;border-radius:2px;background:var(--accent-teal)}
 
 .eyebrow{font-family:'IBM Plex Mono';font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--paper);opacity:0.8;margin:0}
 .display{font-family:'Space Grotesk', 'Segoe UI', Arial;font-size:48px;margin:12px 0}
@@ -81,8 +91,9 @@ nav.nav-rail::before{content:'';position:absolute;left:50%;top:34px;bottom:34px;
 }
 
 /* Skills */
-.skills-grid{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px}
-.skill-cell{flex:1 1 220px;background:var(--surface);padding:16px;border-radius:8px;border:1px solid rgba(255,255,255,0.04)}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-top:12px}
+.skill-cell{background:var(--surface);padding:16px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);transition:border-color 160ms ease}
+.skill-cell:hover{border-color:rgba(70,201,184,0.22)}
 .skill-cell-title{font-family:'Space Grotesk';margin:0 0 8px 0}
 .skill-tags{display:flex;flex-wrap:wrap;gap:8px}
 .skill-tag{background:rgba(243,239,227,0.04);padding:8px;border-radius:8px;font-family:'IBM Plex Mono';font-size:13px;display:flex;flex-direction:column;min-width:120px}

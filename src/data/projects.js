@@ -2,13 +2,13 @@ const projects = [
   {
     id: 'defendly',
     title: 'Defendly',
-    subtitle: 'AI Taekwondo Trainer — ML pose-detection',
+    subtitle: 'AI Taekwondo Trainer — React Native pose-detection app',
     years: '2024–2026',
-    tags: ['Python', 'TensorFlow', 'MediaPipe'],
+    tags: ['React Native', 'TypeScript', 'TensorFlow Lite', 'MediaPipe', 'Supabase'],
     highlights: [
-      'Real-time pose detection and feedback',
-      '90%+ classification accuracy on test set',
-      'Interactive session visualizations and drill tracking'
+      'Real-time on-device pose detection with TensorFlow Lite + MediaPipe',
+      '90%+ movement-classification accuracy',
+      'Offline-first with Supabase auth and cross-device progress sync'
     ],
     mediaAlt: 'Defendly demo',
     image: '/defend.png',
@@ -19,12 +19,12 @@ const projects = [
     title: 'SynergyPlus',
     subtitle: 'Student Grade Portal Wrapper',
     years: '2024–2026',
-    tags: ['React', 'FastAPI'],
+    tags: ['Node.js', 'Express', 'MongoDB', 'Tailwind', 'WebAuthn'],
     highlights: [
-      'Full-stack wrapper to simplify viewing grades',
+      'Full-stack StudentVUE wrapper for cleaner, faster grade access',
       'Grew to 3,000+ users',
-      'Fully secured with encrypted data storage',
-      'Responsive UI with quick filtering'
+      'AES-128 encrypted sessions, WebAuthn login, no stored credentials',
+      'Installable PWA with offline support and dark mode'
     ],
     mediaAlt: 'SynergyPlus screenshot',
     image: '/grade.png',
@@ -33,14 +33,15 @@ const projects = [
   ,
   {
     id: 'assembler',
-    title: 'Custom Assembler and CPU Emulator',
-    subtitle: 'Custom ISA & CPU Emulator — C',
+    title: 'Custom ISA — Assembler, Emulator & CPU Simulator',
+    subtitle: 'Cycle-accurate microarchitecture model — C11',
     years: '2026–current',
-    tags: ['C', 'Systems'],
+    tags: ['C', 'Pipelining', 'Branch Prediction', 'Caches'],
     highlights: [
-      'Designed and implemented a custom instruction set architecture (ISA) and assembler in C',
-      'Built a virtual CPU capable of executing arithmetic, memory, and control-flow instructions',
-      'Implemented instruction parsing, opcode encoding, register management, and memory simulation'
+      'Dependency-free C toolchain: two-pass assembler, functional emulator, and disassembler (round-trip verified)',
+      'Cycle-accurate 5-stage pipeline with hazard detection and forwarding — 1.3–1.7× measured speedup',
+      'Four branch predictors plus a tournament chooser and a configurable cache hierarchy (reports CPI, MPKI, AMAT)',
+      'Validated by oracle-equality against a reference CPU and 37 timing assertions'
     ],
     mediaAlt: 'Assembler demo',
     image: '/assembly-process.png',
