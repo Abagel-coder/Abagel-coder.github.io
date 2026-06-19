@@ -11,7 +11,8 @@ const projects = [
       'Interactive session visualizations and drill tracking'
     ],
     mediaAlt: 'Defendly demo',
-    image: '/defendly.png'
+    image: '/defend.png',
+    repo: 'https://github.com/Abagel-coder/defendly'
   },
   {
     id: 'synergyplus',
@@ -21,18 +22,20 @@ const projects = [
     tags: ['React', 'FastAPI'],
     highlights: [
       'Full-stack wrapper to simplify viewing grades',
+      'Grew to 3,000+ users',
       'Fully secured with encrypted data storage',
       'Responsive UI with quick filtering'
     ],
     mediaAlt: 'SynergyPlus screenshot',
-    image: '/grade.png'
+    image: '/grade.png',
+    repo: 'https://github.com/Abagel-coder/synergyplus'
   }
   ,
   {
     id: 'assembler',
     title: 'Custom Assembler and CPU Emulator',
     subtitle: 'Custom ISA & CPU Emulator — C',
-    years: '2023–2024',
+    years: '2026–current',
     tags: ['C', 'Systems'],
     highlights: [
       'Designed and implemented a custom instruction set architecture (ISA) and assembler in C',
@@ -40,7 +43,8 @@ const projects = [
       'Implemented instruction parsing, opcode encoding, register management, and memory simulation'
     ],
     mediaAlt: 'Assembler demo',
-    image: '/assembly-process.png'
+    image: '/assembly-process.png',
+    repo: 'https://github.com/Abagel-coder/assembler_cpu_emulator'
   }
 ]
 

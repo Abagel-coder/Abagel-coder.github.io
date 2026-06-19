@@ -20,7 +20,9 @@ const skills = [
       { name: 'TensorFlow' },
       { name: 'Scikit-Learn' },
       { name: 'OpenCV' },
-      { name: 'MediaPipe' }
+      { name: 'MediaPipe' },
+      { name: 'LLMs' },
+      { name: 'Explainable AI' }
     ]
   },
   {
@@ -31,6 +33,7 @@ const skills = [
       { name: 'React' },
       { name: 'FastAPI' },
       { name: 'Django' },
+      { name: 'Wagtail' },
       { name: 'Git' }
     ]
   },
@@ -41,7 +44,8 @@ const skills = [
     items: [
       { name: 'Computer Architecture' },
       { name: 'ISA Design' },
-      { name: 'Memory Simulation' }
+      { name: 'Memory Simulation' },
+      { name: 'Server Administration' }
     ]
   }
 ]

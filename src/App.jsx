@@ -4,6 +4,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Leadership from './components/Leadership'
 import Awards from './components/Awards'
+import HeroFigure from './components/HeroFigure'
 import AnimateOnView from './components/AnimateOnView'
 
 export default function App() {
@@ -15,18 +16,19 @@ export default function App() {
           <div className="hero-left">
             <p className="eyebrow">PLEASANTON, CA · INCOMING @ UCSD, COMPUTER ENGINEERING</p>
             <h1 className="display">Anish Baghel</h1>
-            <p className="subhead">I build things for fun.</p>
+            <p className="subhead">I build across the stack. Real-time ML pose-detection. Full-stack web apps. A CPU from scratch.</p>
             <div className="cta-row">
               <a href="#projects" className="btn btn-primary">View Projects →</a>
               <a href="#contact" className="btn btn-ghost">Contact</a>
             </div>
           </div>
+          <HeroFigure />
         </section>
 
         <section id="about" className="section">
           <AnimateOnView>
             <h2>About & Education</h2>
-            <p>I'm an incoming Computer Engineering student at UCSD (expected 2030). I graduated from Foothill High School with a strong background in competitive programming and machine learning projects. HS GPA: 4.34</p>
+            <p>I'm an incoming Computer Engineering student at UCSD (expected 2030). I graduated from Foothill High School with a strong background in competitive programming and machine learning. HS GPA: 3.86 unweighted / 4.34 weighted · Dean's List · Seal of Biliteracy.</p>
           </AnimateOnView>
         </section>
 
@@ -35,8 +37,8 @@ export default function App() {
           <Projects />
         </section>
 
-        <section id="leadership" className="section">
-          <h2>Leadership & Teaching</h2>
+        <section id="experience" className="section">
+          <h2>Experience</h2>
           <Leadership />
         </section>
 

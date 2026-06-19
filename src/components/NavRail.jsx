@@ -5,7 +5,7 @@ export default function NavRail(){
   const sections = [
     {id:'hero', label:'Home'},
     {id:'projects', label:'Projects'},
-    {id:'leadership', label:'Leadership'},
+    {id:'experience', label:'Experience'},
     {id:'skills', label:'Skills'},
     {id:'awards', label:'Awards'},
     {id:'contact', label:'Contact'},
