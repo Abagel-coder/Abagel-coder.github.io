@@ -14,9 +14,9 @@ export default function App() {
       <main className="content">
         <section id="hero" className="section hero">
           <div className="hero-left">
-            <p className="eyebrow">PLEASANTON, CA · INCOMING @ UCSD, COMPUTER ENGINEERING</p>
+            <p className="eyebrow">UC SAN DIEGO · COMPUTER ENGINEERING · CLASS OF 2030</p>
             <h1 className="display">Anish Baghel</h1>
-            <p className="subhead">I build across the stack. Real-time ML pose-detection. Full-stack web apps. A CPU from scratch.</p>
+            <p className="subhead">I build close to the hardware. A CPU simulator and C compiler from scratch. Full-stack web apps with real users.</p>
             <div className="cta-row">
               <a href="#projects" className="btn btn-primary">View Projects →</a>
               <a href="#contact" className="btn btn-ghost">Contact</a>
@@ -28,7 +28,7 @@ export default function App() {
         <section id="about" className="section">
           <AnimateOnView>
             <h2>About & Education</h2>
-            <p>I'm an incoming Computer Engineering student at UCSD (expected 2030). I graduated from Foothill High School with a strong background in competitive programming and machine learning. HS GPA: 3.86 unweighted / 4.34 weighted · Dean's List · Seal of Biliteracy.</p>
+            <p>I'm a first-year Computer Engineering student at UCSD, graduating in 2030. I like computer architecture, C, and microcontrollers. Before UCSD I did competitive programming and published explainable AI research.</p>
           </AnimateOnView>
         </section>
 
@@ -54,10 +54,10 @@ export default function App() {
 
         <section id="contact" className="section">
           <h2>Contact</h2>
-          <p>If you'd like to collaborate or have questions, email me at <a href="mailto:ab370594588@gmail.com">ab370594588@gmail.com</a>.</p>
+          <p>If you'd like to collaborate or have questions, email me at <a href="mailto:anbaghel@ucsd.edu">anbaghel@ucsd.edu</a>.</p>
           <p>
             <a href="https://github.com/Abagel-coder" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-            <a href="https://www.linkedin.com/in/anish-baghel-782909220/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/anish-baghel/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
           </p>
         </section>
       </main>

@@ -2,9 +2,9 @@ const leadership = [
   {
     id: 'asdp',
     role: 'Lead Student Researcher',
-    org: 'Aspiring Scholars Directed Program',
+    org: 'Aspiring Scholars Directed Research Program',
     years: '2022–2025',
-    desc: "Led research in Explainable AI and medical AI under UCI professor Dr. Liu, published a paper in the Journal of Emerging Investigators comparing explainable-AI methods, and helped direct the group's research progress while maintaining its server infrastructure."
+    desc: "Researched explainable AI on chest X-rays with mentor Dr. Liu. First author of a Journal of Emerging Investigators paper comparing Grad-CAM and Deep Taylor Decomposition on pneumonia predictions. Also maintained the group's server."
   },
   {
     id: 'csclub',
@@ -22,21 +22,14 @@ const leadership = [
   },
   {
     id: 'sci-eng',
-    role: 'Science Olympiad — Engineering Captain',
+    role: 'Science Olympiad Engineering Captain',
     org: 'Foothill High School',
     years: '2024–2025',
     desc: 'Captained engineering and coding events: designed practice plans, mentored teammates on problem solving, and ran mock competitions to prepare the team for regionals.'
   },
   {
-    id: 'algoverse',
-    role: 'Independent Researcher',
-    org: 'Algoverse · AI/ML Research Mentorship (Merit Scholar)',
-    years: '2025',
-    desc: 'Conducted original research on the phenomenon of LLM hyperfitting with a PhD mentor and authored a paper currently under review at ACL Rolling Review.'
-  },
-  {
     id: 'sci-sec',
-    role: 'Science Olympiad — Secretary',
+    role: 'Science Olympiad Secretary',
     org: 'Foothill High School',
     years: '2025–2026',
     desc: 'Managed team communications and logistics, kept practice schedules and documentation, and mentored newer members in engineering events and research methods.'

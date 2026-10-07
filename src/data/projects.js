@@ -1,18 +1,19 @@
 const projects = [
   {
-    id: 'defendly',
-    title: 'Defendly',
-    subtitle: 'AI Taekwondo Trainer — React Native pose-detection app',
-    years: '2024–2026',
-    tags: ['React Native', 'TypeScript', 'TensorFlow Lite', 'MediaPipe', 'Supabase'],
+    id: 'assembler',
+    title: 'Custom ISA Toolchain and CPU Simulator',
+    subtitle: 'Compiler, assembler, and cycle-accurate pipeline model in C',
+    years: '2026',
+    tags: ['C', 'Computer Architecture', 'Compilers', 'Branch Prediction', 'Caches'],
     highlights: [
-      'Real-time on-device pose detection with TensorFlow Lite + MediaPipe',
-      '90%+ movement-classification accuracy',
-      'Offline-first with Supabase auth and cross-device progress sync'
+      'C toolchain with no dependencies: a C-subset compiler, two-pass assembler, emulator, disassembler, and step debugger',
+      '5-stage pipeline with hazard detection and forwarding. Forwarding gives a 1.34x to 1.71x speedup',
+      'Four branch predictors, an L1/L2 cache hierarchy, 1 to 4 wide superscalar issue, and an out-of-order model with a reorder buffer',
+      'Checked against a reference CPU on every benchmark, with 37 timing assertions'
     ],
-    mediaAlt: 'Defendly demo',
-    image: '/defend.png',
-    repo: 'https://github.com/Abagel-coder/defendly'
+    mediaAlt: 'Assembler pipeline diagram',
+    image: '/assembly-process.png',
+    repo: 'https://github.com/Abagel-coder/assembler_cpu_emulator'
   },
   {
     id: 'synergyplus',
@@ -22,30 +23,29 @@ const projects = [
     tags: ['Node.js', 'Express', 'MongoDB', 'Tailwind', 'WebAuthn'],
     highlights: [
       'Full-stack StudentVUE wrapper for cleaner, faster grade access',
-      'Grew to 3,000+ users',
+      'Grew to 3,000+ monthly users',
       'AES-128 encrypted sessions, WebAuthn login, no stored credentials',
       'Installable PWA with offline support and dark mode'
     ],
     mediaAlt: 'SynergyPlus screenshot',
     image: '/grade.png',
     repo: 'https://github.com/Abagel-coder/synergyplus'
-  }
-  ,
+  },
   {
-    id: 'assembler',
-    title: 'Custom ISA — Assembler, Emulator & CPU Simulator',
-    subtitle: 'Cycle-accurate microarchitecture model — C11',
-    years: '2026–current',
-    tags: ['C', 'Pipelining', 'Branch Prediction', 'Caches'],
+    id: 'orate',
+    title: 'Orate',
+    subtitle: 'Speaking practice app with AI feedback',
+    years: '2026',
+    tags: ['React', 'Flask', 'Gemini API', 'Docker'],
     highlights: [
-      'Dependency-free C toolchain: two-pass assembler, functional emulator, and disassembler (round-trip verified)',
-      'Cycle-accurate 5-stage pipeline with hazard detection and forwarding — 1.3–1.7× measured speedup',
-      'Four branch predictors plus a tournament chooser and a configurable cache hierarchy (reports CPI, MPKI, AMAT)',
-      'Validated by oracle-equality against a reference CPU and 37 timing assertions'
+      'Gives you a random Wikipedia topic, records a 1 to 2 minute talk, and grades clarity, pacing, structure, and confidence',
+      'Counts words per minute and filler words live in the browser with the Web Speech API',
+      'Saves your history and goals on your device, so there are no accounts',
+      'Frontend and backend unit tests run in GitHub Actions, and the app ships as one Docker image'
     ],
-    mediaAlt: 'Assembler demo',
-    image: '/assembly-process.png',
-    repo: 'https://github.com/Abagel-coder/assembler_cpu_emulator'
+    mediaAlt: 'Orate results screen',
+    image: '/orate.png',
+    repo: 'https://github.com/Abagel-coder/orate'
   }
 ]
 

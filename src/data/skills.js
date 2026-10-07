@@ -4,11 +4,9 @@ const skills = [
     title: 'Languages',
     color: '#46C9B8',
     items: [
-      { name: 'Python', note: 'Primary — ML & scripts' },
-      { name: 'Java', note: 'AP/competition experience' },
+      { name: 'Python', note: 'ML and scripts' },
       { name: 'C++', note: 'Competitive programming' },
       { name: 'JavaScript', note: 'Frontend scripting' },
-      { name: 'TypeScript', note: 'React Native & web apps' },
       { name: 'C', note: 'Systems programming and CPU emulator' },
       { name: 'Assembly', note: 'ISA-level instruction design' }
     ]
@@ -19,10 +17,8 @@ const skills = [
     color: '#46C9B8',
     items: [
       { name: 'TensorFlow' },
-      { name: 'TensorFlow Lite' },
       { name: 'Scikit-Learn' },
       { name: 'OpenCV' },
-      { name: 'MediaPipe' },
       { name: 'LLMs' },
       { name: 'Explainable AI' }
     ]
@@ -33,9 +29,9 @@ const skills = [
     color: '#46C9B8',
     items: [
       { name: 'React' },
-      { name: 'React Native' },
       { name: 'Node.js' },
       { name: 'Express' },
+      { name: 'Flask' },
       { name: 'Django' },
       { name: 'Wagtail' },
       { name: 'Tailwind CSS' },
@@ -47,10 +43,8 @@ const skills = [
     title: 'Data & Infra',
     color: '#46C9B8',
     items: [
-      { name: 'PostgreSQL' },
       { name: 'MongoDB' },
-      { name: 'Redis' },
-      { name: 'Supabase' },
+      { name: 'Docker' },
       { name: 'Vercel' },
       { name: 'WebAuthn / FIDO2' },
       { name: 'Linux / Server Admin' }
@@ -65,7 +59,9 @@ const skills = [
       { name: 'ISA Design' },
       { name: 'Pipelining' },
       { name: 'Branch Prediction' },
-      { name: 'Cache Design' }
+      { name: 'Cache Design' },
+      { name: 'Superscalar and Out-of-Order Models' },
+      { name: 'Compilers' }
     ]
   }
 ]
